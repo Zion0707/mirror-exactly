@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>一镜到底简单案例</title>
+    <script type="text/javascript">
+        var docEl = document.documentElement, Size = docEl.clientWidth / (750 / 40); 
+        docEl.style.fontSize = Size + 'px'; 
+        if(Size >= 25){ 
+            Size = 20;
+            docEl.style.fontSize = '20px';
+        }
+    </script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div id="app"></div>
+
+    
+<script src="js/jquery.min.js"></script>
+<script src="js/createjs.min.js"></script>
+<script src="js/pixi.min.js"></script>
+<script src="js/init.js"></script>
+</body>
+</html>
