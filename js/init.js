@@ -92,7 +92,7 @@ function setup(loader, res){
         }
         
         if(timeline>line1940){
-            alert('到达1940px高度，并适配不同大小的屏幕');
+            console.log('到达1940px高度，并适配不同大小的屏幕');
         }
     }
 
